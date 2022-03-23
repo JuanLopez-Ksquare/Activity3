@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper article</title>
+</head>
+<body>
+    <form>
+        <h1>Newspaper article</h1>
+
+        <h2>General Satisfaction</h2>
+
+            <h3>Was the article helpful?</h3>
+            <input type="radio" id="numberChoice1" name="helpful" value="1">
+            <label for="numberChoice1">1</label>
+            <input type="radio" id="numberChoice2" name="helpful" value="2">
+            <label for="numberChoice2">2</label>
+            <input type="radio" id="numberChoice3" name="helpful" value="3">
+            <label for="numberChoice3">3</label>
+            <input type="radio" id="numberChoice4" name="helpful" value="4">
+            <label for="numberChoice4">4</label>
+            <input type="radio" id="numberChoice5" name="helpful" value="5">
+            <label for="numberChoice5">5</label>
+    
+            <h3>How many times a week do you read articles</h3>
+            <input type="number" name="timesWeek" int>
+
+            <h3>How did you find the article?</h3>
+            <select name="wayToFind" id="survey_find">
+                <option value="Email">Email</option>
+                <option value="Friends">Friends</option>
+                <option value="Family">Family</option>
+                <option value="Other">Other</option>
+
+            </select>
+
+        <h2>Personal Information</h2>
+
+            <h3>If you want to be sent more info regarding articles register here</h3>
+            <h3>Name</h3>
+            <input type="text" name="name" placeholder="Name">
+            <h3>Email</h3>
+            <input type="email" name="email" placeholder="Email">
+            <br>
+            <br>
+            <input type="checkbox" id="sub" name="sub"checked>
+            <label for="sub">I want to receive antoher survey</label>
+
+        <h2>Comments</h2>
+
+            <h3>Please share with us what you think about this survey</h3>   
+            <textarea name="feedback" id="idFeedback" cols="50" rows="5"></textarea>     
+            <br>
+            <button type="submit">Submit</button>
+
+    </form>
+
+
+    
+</body>
+</html>
